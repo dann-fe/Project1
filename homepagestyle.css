@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --mainfont: "Raleway"
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+}
+
+header {
+    width: 10%;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav-container {
+    display: flex;
+    list-style-type: none;
+    padding: 50px;
+    justify-content: space-evenly;
+    font-family: var(--mainfont);
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.nav-object {
+    margin: 0 80px;
+}
+
+main {
+    background-color: rgba(63, 41, 7, 0.788);
+    height: 700px;
+    margin: 20px;
+    border-radius: 15px;
+    color: white;
+    font-size: 70px;
+    font-family: var(--mainfont);
+    font-weight: bold;
+}
+
+.main-content {
+    padding: 50px;
+}
+
+.main-content span {
+    color: rgb(12, 170, 12);
+}
+
+.nav-object:hover {
+    color: rgb(12, 170, 12);
+    cursor: pointer;
+}
+
+p {
+    font-size: 25px;
+    margin: 20px 10px;
+    font-weight: normal;
+}
