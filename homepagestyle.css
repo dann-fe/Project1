@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     /* box-sizing: border-box; */
@@ -18,6 +17,10 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(240, 240, 240);
+    height: 125px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 
 header {
@@ -26,6 +29,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 30px;
 }
 
 .logo {
@@ -35,34 +39,17 @@ header {
 .nav-container {
     display: flex;
     list-style-type: none;
-    padding: 50px;
+    /* padding: 10px; */
     justify-content: space-evenly;
     font-family: var(--mainfont);
     font-weight: 500;
-    font-size: 30px;
+    font-size: 25px;
+    align-items: center;
 }
 
 .nav-object {
-    margin: 0 80px;
-}
-
-main {
-    background-color: rgba(63, 41, 7, 0.788);
-    height: 700px;
-    margin: 20px;
-    border-radius: 15px;
-    color: white;
-    font-size: 70px;
-    font-family: var(--mainfont);
-    font-weight: bold;
-}
-
-.main-content {
-    padding: 50px;
-}
-
-.main-content span {
-    color: rgb(12, 170, 12);
+    margin: 0 60px;
+    transition: 0.1s;
 }
 
 .nav-object:hover {
@@ -70,8 +57,122 @@ main {
     cursor: pointer;
 }
 
+.login {
+    font-family: var(--mainfont);
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #F0F0F0;
+    padding: 10px 20px; 
+    border: gray 1px solid;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.login:hover {
+    background-color: rgba(12, 170, 12, 0.281);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+main {
+    background-color: #3b3008;
+    background-image:  linear-gradient(30deg, #128132 12%, transparent 12.5%, transparent 87%, #128132 87.5%, #128132), linear-gradient(150deg, #128132 12%, transparent 12.5%, transparent 87%, #128132 87.5%, #128132), linear-gradient(30deg, #128132 12%, transparent 12.5%, transparent 87%, #128132 87.5%, #128132), linear-gradient(150deg, #128132 12%, transparent 12.5%, transparent 87%, #128132 87.5%, #128132), linear-gradient(60deg, #12813277 25%, transparent 25.5%, transparent 75%, #12813277 75%, #12813277), linear-gradient(60deg, #12813277 25%, transparent 25.5%, transparent 75%, #12813277 75%, #12813277);
+    background-size: 20px 35px;
+    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+    height: 1000px;
+    padding-top: 140px;
+    display: flex;
+    flex-direction: row;
+}
+
+.welcome {
+    display: flex;
+}
+
+.connect {
+    height: 510px;
+    width: 50vw;
+    background-color: rgb(88, 57, 11);
+    color: white;
+    font-size: 70px;
+    font-family: var(--mainfont);
+    font-weight: bold;
+    /* -webkit-box-shadow: inset 0px 61px 84px -36px rgba(0,0,0,0.7);
+    -moz-box-shadow: inset 0px 61px 84px -36px rgba(0,0,0,0.7);
+    box-shadow: inset 0px 61px 84px -36px rgba(0,0,0,0.7); */
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.welcome-text {
+    padding: 50px;
+    font-size: 60px;
+}
+
+.welcome-text span {
+    color: rgb(12, 170, 12);
+}
+
+
+
 p {
     font-size: 25px;
     margin: 20px 10px;
     font-weight: normal;
+}
+
+.books-falling {
+    width: 300px;
+    position: absolute;
+    left: 600px;
+    bottom: 350px;
+}
+
+.how {
+    margin-top: 20px;
+    width: 45vw;
+}
+
+.how-title {
+    color: white;
+    font-family: "Raleway";
+    word-spacing: 5px;
+    background-color: #749D68;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    width: 30%;
+    margin-left: 220px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #ff7300;
+    margin-top: 20px;
+    height: 300px;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.card-title {
+    color: white;
+    font-family: "Raleway";
+    font-size: 25px;
+    padding: 20px 25px 0px 5px;
+}
+
+.card-image {
+    width: 250px;
+    rotate: 15deg;
+    margin-left: 50%;
+}
+
+.card-text {
+    color: white;
+    font-family: "Raleway";
+    font-size: 20px;
 }
