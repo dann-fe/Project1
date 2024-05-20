@@ -1,6 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
 
 * {
     /* box-sizing: border-box; */
@@ -9,15 +7,16 @@
 }
 
 :root {
-    --mainfont: "Raleway"
+    --mainfont: "Raleway";
+    --secondaryfont: "Roboto Slab";
 }
 
 .header-nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(240, 240, 240);
-    height: 125px;
+    background-color: rgb(231, 231, 231);
+    height: 115px;
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -53,7 +52,7 @@ header {
 }
 
 .nav-object:hover {
-    color: rgb(12, 170, 12);
+    color: rgb(105, 93, 155);
     cursor: pointer;
 }
 
@@ -69,16 +68,16 @@ header {
 }
 
 .login:hover {
-    background-color: rgba(12, 170, 12, 0.281);
+    background-color: rgba(20, 29, 116, 0.281);
     cursor: pointer;
     text-decoration: underline;
 }
 
 main {
-    background-color: #3b3008;
-    background-image:  linear-gradient(30deg, #128132 12%, transparent 12.5%, transparent 87%, #128132 87.5%, #128132), linear-gradient(150deg, #128132 12%, transparent 12.5%, transparent 87%, #128132 87.5%, #128132), linear-gradient(30deg, #128132 12%, transparent 12.5%, transparent 87%, #128132 87.5%, #128132), linear-gradient(150deg, #128132 12%, transparent 12.5%, transparent 87%, #128132 87.5%, #128132), linear-gradient(60deg, #12813277 25%, transparent 25.5%, transparent 75%, #12813277 75%, #12813277), linear-gradient(60deg, #12813277 25%, transparent 25.5%, transparent 75%, #12813277 75%, #12813277);
-    background-size: 20px 35px;
-    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+    background-color: #808080;
+    opacity: 1;
+    background-size: 20px 20px;
+    background-image:  repeating-linear-gradient(0deg, #091044, #091044 1px, #4c4c4c 1px, #4c4c4c);
     height: 1000px;
     padding-top: 140px;
     display: flex;
@@ -89,70 +88,81 @@ main {
     display: flex;
 }
 
-.connect {
+.connect-text {
     height: 510px;
-    width: 50vw;
-    background-color: rgb(88, 57, 11);
+    width: 45vw;
+    background-color: rgb(11, 37, 88);
     color: white;
-    font-size: 70px;
-    font-family: var(--mainfont);
+    /* font-size: 70px; */
+    font-family: var(--secondaryfont);
     font-weight: bold;
     /* -webkit-box-shadow: inset 0px 61px 84px -36px rgba(0,0,0,0.7);
     -moz-box-shadow: inset 0px 61px 84px -36px rgba(0,0,0,0.7);
     box-shadow: inset 0px 61px 84px -36px rgba(0,0,0,0.7); */
     margin: 20px;
     border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 
-.welcome-text {
-    padding: 50px;
+
+
+.books {
+    width: 320px;
+    position: absolute;
+    left: 480px;
+    top: 160px;
+}
+
+.connect-title {
+    /* padding: 50px; */
     font-size: 60px;
+    width: 500px;
+    margin-left: 10px;
 }
 
-.welcome-text span {
+.connect-title span {
     color: rgb(12, 170, 12);
 }
 
 
 
-p {
-    font-size: 25px;
+.connect-body {
+    font-size: 40px;
     margin: 20px 10px;
     font-weight: normal;
 }
 
-.books-falling {
-    width: 300px;
-    position: absolute;
-    left: 600px;
-    bottom: 350px;
-}
 
 .how {
     margin-top: 20px;
     width: 45vw;
+    margin-left: 30px;
 }
 
 .how-title {
     color: white;
     font-family: "Raleway";
     word-spacing: 5px;
-    background-color: #749D68;
+    background-color: #050d30;
     padding: 10px;
     border-radius: 15px;
     text-align: center;
     width: 30%;
-    margin-left: 220px;
+    margin-left: 230px;
 }
 
 .cards {
     display: flex;
-    justify-content: space-around;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .card {
-    background-color: #ff7300;
+    background-color: #5d2c2d;
     margin-top: 20px;
+    margin-bottom: 20px;
     height: 300px;
     border-radius: 10px;
     width: 40%;
@@ -162,17 +172,46 @@ p {
     color: white;
     font-family: "Raleway";
     font-size: 25px;
-    padding: 20px 25px 0px 5px;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .card-image {
-    width: 250px;
+    width: 125px;
     rotate: 15deg;
-    margin-left: 50%;
+    margin-left: 70%;
+}
+
+.card-image2 {
+    width: 125px;
+    rotate: 15deg;
+    margin-left: 70%;
+    margin-top: 55px;
+}
+
+.card-image3 {
+    width: 160px;
+    rotate: 15deg;
+    margin-left: 70%;
+    margin-top: 20px;  
 }
 
 .card-text {
     color: white;
     font-family: "Raleway";
     font-size: 20px;
+    margin-bottom: -20px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
