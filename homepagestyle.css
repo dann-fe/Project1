@@ -52,7 +52,7 @@ header {
 }
 
 .nav-object:hover {
-    color: rgb(105, 93, 155);
+    color: #10579d;
     cursor: pointer;
 }
 
@@ -68,16 +68,14 @@ header {
 }
 
 .login:hover {
-    background-color: rgba(20, 29, 116, 0.281);
+    background-color: #0f457b51;
     cursor: pointer;
     text-decoration: underline;
 }
 
 main {
-    background-color: #808080;
-    opacity: 1;
-    background-size: 20px 20px;
-    background-image:  repeating-linear-gradient(0deg, #091044, #091044 1px, #4c4c4c 1px, #4c4c4c);
+    background-image: url(background3.png);
+    background-size: auto;
     height: 1000px;
     padding-top: 140px;
     display: flex;
@@ -128,13 +126,53 @@ main {
 
 
 .connect-body {
-    font-size: 40px;
+    font-size: 25px;
     margin: 20px 10px;
     font-weight: normal;
 }
 
+.join-button {
+    
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        z-index: 0;
+        background: #fff;
+        overflow: hidden;
+        border: 2px solid #adb5bd;
+        color: #adb5bd
+  }
+  
+  .join-button:hover {
+    color: #fff;
+  }
+  .join-button:hover:after {
+    width: 100%;
+  }
+  .join-button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #adb5bd;
+  }
 
-.how {
+
+
+
+.concept {
     margin-top: 20px;
     width: 45vw;
     margin-left: 30px;
@@ -151,6 +189,11 @@ main {
     width: 30%;
     margin-left: 230px;
 }
+
+
+
+
+
 
 .cards {
     display: flex;
@@ -205,11 +248,11 @@ main {
     margin-top: 10px;
 }
 
-a {
+.link {
     color: white;
 }
 
-a:hover {
+.link:hover {
     color: rgb(94, 94, 94);
     text-decoration: none;
     transition: 0.2s;
