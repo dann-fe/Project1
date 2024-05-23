@@ -120,59 +120,44 @@ main {
 }
 
 .connect-title span {
-    color: rgb(12, 170, 12);
+    color: rgb(255, 235, 204);
 }
 
 
 
 .connect-body {
     font-size: 25px;
-    margin: 20px 10px;
+    margin: 20px 10px 0px 20px;
     font-weight: normal;
 }
 
+
 .join-button {
-    
-        min-width: 130px;
-        height: 40px;
-        color: #fff;
-        padding: 5px 10px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        position: relative;
-        display: inline-block;
-        outline: none;
-        border-radius: 5px;
-        z-index: 0;
-        background: #fff;
-        overflow: hidden;
-        border: 2px solid #adb5bd;
-        color: #adb5bd
-  }
-  
-  .join-button:hover {
-    color: #fff;
-  }
-  .join-button:hover:after {
-    width: 100%;
-  }
-  .join-button:after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    transition: all 0.3s ease;
-    left: 0;
-    top: 0;
-    width: 0;
-    height: 100%;
-    background: #adb5bd;
-  }
+    font-family: var(--secondaryfont);
+    font-size: 16.5px;
+    width: 150px;
+    padding: 15px;
+    margin-left: 280px;
+    border-radius: 10px;
+    transition: 0.2s;
+    background-color: #0B2558;
+    border: 3px solid rgb(244, 219, 219);
+    color: white;
+}
 
+.join-button:hover {
+    cursor: pointer;
+    background-color: rgb(240, 219, 192);
+    font-size: 17.5px;
+    color: #10579d;
+    font-weight: 600;
+}
 
+.join-button:active {
+    background-color: rgb(255, 255, 255);
+}
 
-
-.concept {
+.how {
     margin-top: 20px;
     width: 45vw;
     margin-left: 30px;
@@ -188,7 +173,7 @@ main {
     text-align: center;
     width: 30%;
     margin-left: 230px;
-}
+}   
 
 
 
@@ -219,33 +204,72 @@ main {
     text-align: center;
 }
 
+.card-text1, .card-text2, .card-text3, .card-text4 {
+    color: white;
+    font-family: "Raleway";
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.card-text2, .card-text4 {
+    margin-bottom: 23px;
+}
+
+
+
+.how-button {
+    padding: 10px;
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 17.5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #96484b;
+    color: whitesmoke;
+    border: 1px solid white;
+    transition: 0.1s;
+    border-radius: 10px;
+}
+
+.how-button:hover {
+    cursor: pointer;
+    background-color: #ba6a6aee;
+    color: rgb(255, 255, 255);
+    border-color: #ba6a6aee;
+}
+
+.how-button:active {
+    background-color: #e8acacee;
+}
+
 .card-image {
     width: 125px;
     rotate: 15deg;
     margin-left: 70%;
+    margin-top: -60px;
 }
 
 .card-image2 {
     width: 125px;
-    rotate: 15deg;
-    margin-left: 70%;
-    margin-top: 55px;
+    rotate: 15deg;  
+    margin-left: 75%;
+    margin-top: -10px;
 }
 
 .card-image3 {
     width: 160px;
     rotate: 15deg;
-    margin-left: 70%;
-    margin-top: 20px;  
+    margin-left: 72.5%;
+    margin-top: -10px;
 }
 
-.card-text {
-    color: white;
-    font-family: "Raleway";
-    font-size: 20px;
-    margin-bottom: -20px;
-    margin-left: 10px;
-    margin-top: 10px;
+.card-image4 {
+    width: 125px;
+    rotate: 15deg;
+    margin-left: 75%;
+    margin-top: -30px;
 }
 
 .link {
