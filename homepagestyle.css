@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/eastman-grotesque-trial');
 
 * {
     /* box-sizing: border-box; */
@@ -73,6 +74,10 @@ header {
     text-decoration: underline;
 }
 
+.login:active {
+    background-color: #1a63ac51;
+}
+
 main {
     background-image: url(background3.png);
     background-size: auto;
@@ -86,7 +91,9 @@ main {
     display: flex;
 }
 
-.connect-text {
+
+
+.connect {
     height: 510px;
     width: 45vw;
     background-color: rgb(11, 37, 88);
@@ -125,7 +132,7 @@ main {
 
 
 
-.connect-body {
+.connect-text {
     font-size: 25px;
     margin: 20px 10px 0px 20px;
     font-weight: normal;
@@ -135,9 +142,9 @@ main {
 .join-button {
     font-family: var(--secondaryfont);
     font-size: 16.5px;
-    width: 150px;
+    width: 200px;
     padding: 15px;
-    margin-left: 280px;
+    margin-left: 230px;
     border-radius: 10px;
     transition: 0.2s;
     background-color: #0B2558;
@@ -161,11 +168,12 @@ main {
     margin-top: 20px;
     width: 45vw;
     margin-left: 30px;
+    /* line-height: 25px; */
 }
 
 .how-title {
     color: white;
-    font-family: "Raleway";
+    font-family: var(--mainfont);
     word-spacing: 5px;
     background-color: #050d30;
     padding: 10px;
@@ -198,7 +206,7 @@ main {
 
 .card-title {
     color: white;
-    font-family: "Raleway";
+    font-family: var(--mainfont);
     font-size: 25px;
     padding-top: 10px;
     text-align: center;
@@ -206,7 +214,7 @@ main {
 
 .card-text1, .card-text2, .card-text3, .card-text4 {
     color: white;
-    font-family: "Raleway";
+    font-family: var(--mainfont);
     font-size: 20px;
     margin-bottom: 0px;
     margin-left: 10px;
@@ -221,7 +229,7 @@ main {
 
 .how-button {
     padding: 10px;
-    font-family: "Raleway";
+    font-family: var(--mainfont);
     font-weight: 500;
     font-size: 17.5px;
     margin-left: 20px;
