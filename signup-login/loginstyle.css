@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/eastman-grotesque-trial');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imgs/homepage-background.png);
+}
+
+#background1 {
+    display: flex;
+    justify-content: center;
+    height: 490px;
+    margin-top: 140px;
+}
+
+.graybg {
+    background-color: rgb(59, 59, 59);
+    width: 45%;
+    height: 490px;
+}
+
+.loginimagecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(232, 232, 232);
+    font-family: "Roboto Slab";
+    font-size: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-family: "Raleway";
+}
+
+input::placeholder {
+    font-family: "Raleway";
+    color: rgb(138, 138, 138);
+}
+
+label {
+    /* margin-left: 158px; */
+    color: white;
+    font-weight: 600;
+    align-self: center;
+}
+
+input {
+    width: 50%;
+    align-self: center;
+    background-color: rgba(97, 114, 171, 0.384);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+input:focus {
+    background-color: rgb(198, 198, 198);
+    box-shadow: none;
+    border: 1px solid gray;
+    outline: none;
+}
+
+#submit {
+    padding: 10px;
+    width: 20%;
+    background-color: #0F457B;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: "Raleway";
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: #124d88;
+    text-decoration: solid;
+}
+
+.signup {
+    color: white;
+    font-family: "Raleway";
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link {
+    color: rgb(193, 191, 191);
+}
