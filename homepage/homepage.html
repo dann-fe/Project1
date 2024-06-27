@@ -18,7 +18,7 @@
             <!-- <li class="nav-object"><a href="../signup-login/index.html" class="nav-link">Your books</a></li> -->
             <a href="../signup-login/login.html" class="nav-link"><li class="nav-object">Your books</li></a>
             <li class="nav-object">Search users</li>
-            <li class="nav-object"><a href="../signup-login/login.html"><button class="login">Log In</button></a></li>
+            <li class="nav-object"><button class="login">Log In</button></a></li>
         </ul>
         
     </nav>
@@ -76,7 +76,7 @@
                         <div class="how-button-container">
                             <button class="how-button"><a href="../signup-login/login.html" class="how-link">Sign up for statistics</a></button>
                         </div>
-                        <img src="../imgs/stats.webp" alt="" class="card-image4">
+                        <img src="../imgs/stats.webp" alt="Statistics" class="card-image4">
                     </div>
                 </div>          
         </section>
@@ -84,5 +84,22 @@
     <footer>
         
     </footer>
+    <div id="login-popout-window">
+        <div class="window-content">
+            <div class="close-window-container">
+                <div class="close-window">&#10006;</div>
+            </div>
+            <h1 class="login-heading">LOGIN</h1>
+            <form action="" id="login-form">
+                <label for="username-email">Username/email:</label><br>
+                <input type="text" id="username-email" name="username-email" placeholder="Username or email"><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" placeholder="Password"><br>
+                <input type="submit" id="submit" value="Login">
+            </form>
+            <div class="signup-link">Don't have an account yet? Sign up and use Booker to the fullest! <a href="signup.html" class="link">Sign up</a></div>
+        </div>
+    </div>
+    <script src="login.js"></script>
 </body>
 </html>
