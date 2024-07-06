@@ -10,6 +10,11 @@ function openLoginWindow () {
     body.classList.add("no-scroll");
 }
 
+function openSignupWindow (){
+    signupWindow.style.display = "flex";
+    body.classList.add("no-scroll");
+}
+
 function closeLoginWindow () {
     loginWindow.style.display = "none";
     body.classList.remove("no-scroll");
@@ -19,10 +24,6 @@ function closeSignupWindow () {
     signupWindow.style.display = "none";
     body.classList.remove("no-scroll");
 }
-
-function openSignupWindow (){
-    signupWindow.style.display = "flex";
- }
 
 loginButton.addEventListener("click", openLoginWindow);
 closeButton[0].addEventListener("click", closeLoginWindow);

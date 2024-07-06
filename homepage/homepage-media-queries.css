@@ -1,0 +1,188 @@
+@media (max-width: 1286px) {
+
+    .logo {
+        width: 110%;
+    }
+
+    .nav-container {
+        display: flex;
+        list-style-type: none;
+        /* padding: 10px; */
+        justify-content: space-evenly;
+        font-family: var(--mainfont);
+        font-weight: 500;
+        font-size: 20px;
+        align-items: center;
+    }
+
+    .nav-object {
+        margin: 0 50px;
+        transition: 0.1s;
+    }
+
+    .login {
+        font-family: var(--mainfont);
+        font-weight: 500;
+        font-size: 15px;
+        background-color: #F0F0F0;
+        padding: 10px 20px; 
+        border: gray 1px solid;
+        border-radius: 15px;
+        transition: 0.3s;
+        width: 100px;
+    }
+
+    .connect {
+        height: 460px;
+        width: 45vw;
+        background-color: rgb(11, 37, 88);
+        color: white;
+        /* font-size: 70px; */
+        font-family: var(--secondaryfont);
+        font-weight: bold;
+        /* -webkit-box-shadow: inset 0px 61px 84px -36px rgba(0,0,0,0.7);
+        -moz-box-shadow: inset 0px 61px 84px -36px rgba(0,0,0,0.7);
+        box-shadow: inset 0px 61px 84px -36px rgba(0,0,0,0.7); */
+        margin: 20px;
+        border-radius: 20px;
+        padding-top: 20px;
+        padding-left: 10px;
+        margin-bottom: 0;
+    }
+
+    .connect-title {
+        font-size: 55px;
+        width: 400px;
+        margin-left: 10px;
+    }
+
+    .books {
+        width: 20%;
+        position: absolute;
+        left: 440px;
+        top: 160px;
+    }
+
+    .connect-text {
+        font-size: 22.5px;
+        margin: 20px 10px 0px 10px;
+        font-weight: normal;
+    }
+
+    .join-button {
+        font-family: var(--secondaryfont);
+        font-size: 16.5px;
+        width: 150px;
+        padding: 15px;
+        margin-left: 220px;
+        border-radius: 10px;
+        transition: 0.2s;
+        background-color: #0B2558;
+        border: 3px solid rgb(244, 219, 219);
+        color: white;
+    }
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+    .cards {
+        display: flex;
+        gap: 20px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background-color: #5d2c2d;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 300px;
+        border-radius: 10px;
+        width: 40%;
+    }
+
+    .card-title {
+        color: white;
+        font-family: var(--mainfont);
+        font-size: 20px;
+        padding-top: 10px;
+        text-align: center;
+        margin: 0 10px;
+    }
+
+    .card-text1, .card-text2, .card-text3, .card-text4 {
+        color: white;
+        font-family: var(--mainfont);
+        font-size: 17.5px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .card-text2, .card-text4 {
+        margin-bottom: 21px;
+    }
+
+
+
+    .how-button {
+        padding: 10px;
+        font-family: var(--mainfont);
+        font-weight: 500;
+        font-size: 17.5px;
+        margin-left: 10px;
+        margin-top: 20px;
+        background-color: #96484b;
+        color: whitesmoke;
+        border: 1px solid white;
+        transition: 0.1s;
+        border-radius: 10px;
+    }
+
+    .how-button:hover {
+        cursor: pointer;
+        background-color: #ba6a6aee;
+        color: rgb(255, 255, 255);
+        border-color: #ba6a6aee;
+    }
+
+    .how-button:active {
+        background-color: #e8acacee;
+    }
+
+    .how-link {
+        color: white;
+    }
+
+    .card-image {
+        width: 45%;
+        rotate: 15deg;
+        margin-left: 70%;
+        margin-top: -10px;
+    }
+
+    .card-image2 {
+        width: 45%;
+        rotate: 15deg;  
+        margin-left: 75%;
+        margin-top: 5px;
+    }
+
+    .card-image3 {
+        width: 55%;
+        rotate: 15deg;
+        margin-left: 72.5%;
+        margin-top: 10px;
+    }
+
+    .card-image4 {
+        width: 40%;
+        rotate: 15deg;
+        margin-left: 75%;
+        margin-top: 0px;
+}
+
+}
