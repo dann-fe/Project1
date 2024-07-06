@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="homepagestyle.css">
+    <link rel="stylesheet" href="../scrollbar.css">
     <title>Homepage</title>
 </head>
 <body>
@@ -31,7 +32,7 @@
                 <div class="connect">
                     <div class="connect-title">Connect with people through <span>books</span>.</div>
                     <p class="connect-text">Join the free-to-use app which helps you <strong>expand your book taste</strong> and <strong>connect with people</strong> with the same interests!</p>
-                    <a href="../signup-login/login.html" class="button-link"><button class="join-button">JOIN NOW</button></a> 
+                    <button class="join-button">JOIN NOW</button>
                 </div>
                 <div class="updates">
                     <h1 class="updates-title">RECENT UPDATES AND ADDITIONS:</h1>
@@ -84,12 +85,12 @@
     <footer>
         
     </footer>
-    <div id="login-popout-window">
-        <div class="window-content">
+    <div id="login-window" class="modal-popout-window">
+        <div class="login-window-content">
             <div class="close-window-container">
                 <div class="close-window">&#10006;</div>
             </div>
-            <h1 class="login-heading">LOGIN</h1>
+            <h1 class="modal-heading">LOGIN</h1>
             <form action="" id="login-form">
                 <label for="username-email">Username/email:</label><br>
                 <input type="text" id="username-email" name="username-email" placeholder="Username or email"><br>
@@ -97,7 +98,30 @@
                 <input type="password" id="password" name="password" placeholder="Password"><br>
                 <input type="submit" id="submit" value="Login">
             </form>
-            <div class="signup-link">Don't have an account yet? Sign up and use Booker to the fullest! <a href="signup.html" class="link">Sign up</a></div>
+            <div class="signup-link-container">
+                <div class="signup-link">Don't have an account yet? Sign up and use Booker to the fullest! <a href="signup.html" class="link">Sign up</a></div>  
+            </div>
+        </div>
+    </div>
+    <div id="signup-window" class="modal-popout-window">
+        <div class="signup-window-content">
+            <div class="close-window-container">
+                <div class="close-window">&#10006;</div>
+            </div>
+            <h1 class="modal-heading">JOIN BOOKER</h1>
+            <p class="signup-text">Join Booker and get access to many more features as writing your own book reviews, seeing your statistics and more!</p>
+            <form action="" id="login-form">
+                <label for="username-email">Username:</label><br>
+                <input type="text" id="username" name="username" placeholder="Your username"><br>
+                <div class="email-flexbox">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email"><br>
+                </div>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" placeholder="Password"><br>
+                <input type="submit" id="submit" value="Login">
+            </form>
         </div>
     </div>
     <script src="login.js"></script>
