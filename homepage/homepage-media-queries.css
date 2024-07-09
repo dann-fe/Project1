@@ -16,7 +16,7 @@
     }
 
     .nav-object {
-        margin: 0 50px;
+        margin: 0 45px;
         transition: 0.1s;
     }
 
@@ -74,7 +74,6 @@
         font-size: 16.5px;
         width: 150px;
         padding: 15px;
-        margin-left: 220px;
         border-radius: 10px;
         transition: 0.2s;
         background-color: #0B2558;
@@ -133,8 +132,8 @@
         font-family: var(--mainfont);
         font-weight: 500;
         font-size: 17.5px;
-        margin-left: 10px;
-        margin-top: 20px;
+        /* margin-left: 10px;
+        margin-top: 20px; */
         background-color: #96484b;
         color: whitesmoke;
         border: 1px solid white;
@@ -142,20 +141,6 @@
         border-radius: 10px;
     }
 
-    .how-button:hover {
-        cursor: pointer;
-        background-color: #ba6a6aee;
-        color: rgb(255, 255, 255);
-        border-color: #ba6a6aee;
-    }
-
-    .how-button:active {
-        background-color: #e8acacee;
-    }
-
-    .how-link {
-        color: white;
-    }
 
     .card-image {
         width: 45%;
@@ -183,6 +168,217 @@
         rotate: 15deg;
         margin-left: 75%;
         margin-top: 0px;
+    }
+
 }
+
+@media (max-width: 1239px) {
+
+    .connect-title {
+        font-size: 50px;
+    }
+
+    .books {
+            width: 21%;
+            position: absolute;
+            left: 35%;
+            top: 170px;
+    }
+
+    .how-buton-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .how-button {
+        padding: 10px;
+        font-family: var(--mainfont);
+        font-weight: 500;
+        font-size: 16.5px;
+        /* margin-left: 8px;
+        margin-right: 5px;
+        margin-top: 20px; */
+        background-color: #96484b;
+        color: whitesmoke;
+        border: 1px solid white;
+        transition: 0.1s;
+        border-radius: 10px;
+    }
+
+    .card-text1, .card-text2, .card-text3, .card-text4 {
+        color: white;
+        font-family: var(--mainfont);
+        font-size: 16.5px;
+        margin-bottom: 0px;
+        margin-left: 7px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    
+    .card-text2, .card-text4 {
+        margin-bottom: 19px;
+    }
+
+
+}
+
+@media (max-width: 1229px) {
+    .nav-container {
+        display: flex;
+        list-style-type: none;
+        /* padding: 10px; */
+        justify-content: space-evenly;
+        font-family: var(--mainfont);
+        font-weight: 500;
+        font-size: 20px;
+        align-items: center;
+    }
+
+    .nav-object {
+        margin: 0 40px;
+        transition: 0.1s;
+    }
+
+}
+
+@media (max-width: 1216px) {
+    .card-image2 {
+        width: 40%;
+        rotate: 15deg;  
+        margin-left: 70%;
+        margin-top: 25px;
+    }
+
+    .card-image4 {
+        width: 40%;
+        rotate: 15deg;
+        margin-left: 75%;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .connect-text {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 1174px) {
+    .nav-object {
+        margin: 0 45px;
+        transition: 0.1s;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1160px) {
+    .books {
+        top: 180px;
+    }
+
+    .how-button {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1144px) {
+    .card-text2 {
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 1135px) {
+
+    .logo {
+        width: 130px;
+    }
+
+    .how-title {
+        font-size: 18px;
+    }
+
+    .card-text1, .card-text2, .card-text3, .card-text4 {
+        font-size: 15px;
+    }
+
+    .card-text2 {
+        margin-bottom: 17px;
+    }
+
+    .card-text3 {
+        margin-bottom: 3px;
+    }
+
+    .card-image, .card-image2 {
+        margin-top: 10px;
+        width: 50%;
+    }
+    
+    .card-image2 {
+        margin-top: 20%;
+        margin-left: 65%;
+    }
+
+    .card-image3 {
+        margin-top: 12.5%;
+        width: 55%;
+    }
+
+    .card-image4 {
+        margin-top: 10px;
+        margin-left: 62%;
+        width: 45%;
+    }
+
+    .books {
+        width: 20%;
+        left: 36.5%;
+        top: 170px;
+        display: none;
+    }
+
+    .small-books {
+        display: block;
+        width: 22%;
+        position: absolute;
+        top: 155px;
+        left: 34.5vw;
+    }
+
+    /* .small-books2 {
+        display: block;
+        width: 20%;
+        position: absolute;
+        top: 440px;
+        left: 34.5vw;
+    } */
+}
+
+
+@media (max-width: 1110px) {
+    .card-image2, .card-image4 {
+        margin-left: 60%;
+    }
+}
+
+@media (max-width: 1088px) {
+    .card-image4 {
+        margin-left: 60%;
+    }
+
+    .books {
+        top: 185px;
+    }
+
+    .join-button {
+        margin-top: 20px;
+    }
+
+
+}
+
+@media (max-width: 1082px) {
 
 }

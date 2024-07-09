@@ -47,6 +47,7 @@ header {
 
 .logo {
     width: 100%;
+    margin-left: 15px;
 }
 
 .nav-container {
@@ -139,7 +140,11 @@ main {
     width: 20%;
     position: absolute;
     left: 490px;
-    top: 160px;
+    top: 160px; 
+}
+
+.small-books, .small-books2 {
+    display: none;
 }
 
 .connect-title {
@@ -167,7 +172,7 @@ main {
     font-size: 16.5px;
     width: 200px;
     padding: 15px;
-    margin-left: 230px;
+    margin-left: 35%;
     border-radius: 10px;
     transition: 0.2s;
     background-color: #0B2558;
@@ -250,15 +255,18 @@ main {
     margin-bottom: 23px;
 }
 
-
+.how-button-container {
+    display: flex;
+    justify-content: center;
+}
 
 .how-button {
     padding: 10px;
     font-family: var(--mainfont);
     font-weight: 500;
     font-size: 17.5px;
-    margin-left: 20px;
-    margin-top: 20px;
+    /* margin-left: 10px; */
+    margin-top: 20px; 
     background-color: #96484b;
     color: whitesmoke;
     border: 1px solid white;
@@ -284,29 +292,29 @@ main {
 .card-image {
     width: 45%;
     rotate: 15deg;
-    margin-left: 70%;
+    margin-left: 75%;
     margin-top: -60px;
 }
 
 .card-image2 {
     width: 45%;
     rotate: 15deg;  
-    margin-left: 75%;
+    margin-left: 80%;
     margin-top: -10px;
 }
 
 .card-image3 {
-    width: 55%;
+    width: 52.5%;
     rotate: 15deg;
-    margin-left: 72.5%;
+    margin-left: 80%;
     margin-top: -10px;
 }
 
 .card-image4 {
     width: 40%;
     rotate: 15deg;
-    margin-left: 75%;
-    margin-top: -30px;
+    margin-left: 80%;
+    margin-top: -20px;
 }
 
 .link {
