@@ -45,7 +45,7 @@ header {
     margin-right: 30px;
 }
 
-.logo {
+#logo {
     width: 100%;
     margin-left: 15px;
 }
@@ -64,6 +64,7 @@ header {
 .nav-object {
     margin: 0 60px;
     transition: 0.1s;
+    text-align: center;
 }
 
 .nav-object:hover {
@@ -306,7 +307,7 @@ main {
 .card-image3 {
     width: 52.5%;
     rotate: 15deg;
-    margin-left: 80%;
+    margin-left: 75%;
     margin-top: -10px;
 }
 
@@ -348,6 +349,10 @@ main {
 
 .updates-list-item {
     margin-bottom: 10px;
+}
+
+.updates-img {
+    display: none;
 }
 
 footer {
