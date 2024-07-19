@@ -16,8 +16,18 @@
         <ul class="nav-container">
             <li class="nav-object">Homepage</li>
             <li class="nav-object">Browse books</li>
-            <!-- <li class="nav-object"><a href="../signup-login/index.html" class="nav-link">Your books</a></li> -->
-            <a href="../signup-login/login.html" class="nav-link"><li class="nav-object">Your books</li></a>
+            <div class="hamburger-container">
+                <input type="checkbox" id="checkbox" class="checkbox">
+                <label for="checkbox">
+                    <div class="hamburger">
+                        <span class="bar bar1"></span>
+                        <span class="bar bar2"></span>
+                        <span class="bar bar3"></span>
+                        <span class="bar bar4"></span>
+                    </div>
+                </label>
+            </div>
+            <!-- <a href="../signup-login/login.html" class="nav-link"> --> <li class="nav-object">Your books</li><!-- </a> --> 
             <li class="nav-object">Search users</li>
             <li class="nav-object"><button class="login">Log In</button></a></li>
         </ul>
@@ -57,7 +67,7 @@
                         <h1 class="card-title">Review a book you read</h2>
                         <p class="card-text1">Share your thoughts and recommendations on your latest read in a brief and engaging way</p>
                         <div class="how-button-container">
-                                <button class="how-button">Browse book reviews</button>
+                                <button class="how-button">Browse reviews</button>
                         </div>
                         <img src="../imgs/manreading.png" alt="" class="card-image">   
                     </div>
@@ -65,7 +75,7 @@
                         <h1 class="card-title">Talk to others about books</h2>
                         <p class="card-text2">Chat with anyone with the same book taste through direct messages!</p>
                         <div class="how-button-container">
-                            <a href="../signup-login/login.html" class="how-link"><button class="how-button">Sign up to DM others</button></a>
+                            <a href="../signup-login/login.html" class="how-link"><button class="how-button">Sign up for DMs</button></a>
                         </div>
                         <img src="../imgs/chat.webp" alt="" class="card-image2">
                     </div>
@@ -81,7 +91,7 @@
                         <h1 class="card-title">See your book statistics</h2>
                         <p class="card-text4">Have a clean overview of your reading experience simply by logging and reviewing books!</p>
                         <div class="how-button-container">
-                            <button class="how-button"><a href="../signup-login/login.html" class="how-link">Sign up for statistics</a></button>
+                            <button class="how-button"><a href="../signup-login/login.html" class="how-link">See statistics</a></button>
                         </div>
                         <img src="../imgs/stats.webp" alt="Statistics" class="card-image4">
                     </div>
@@ -104,8 +114,8 @@
                 <input type="password" id="password" name="password" placeholder="Password"><br>
                 <input type="submit" id="submit" value="Login">
             </form>
-            <div class="signup-link-container">
-                <div class="signup-link">Don't have an account yet? Sign up and use Booker to the fullest! <a href="signup.html" class="link">Sign up</a></div>  
+            <div id="signup-link-container">
+                <div class="signup-invitation">Don't have an account yet? Sign up and use Booker to the fullest! <span id="signup-link">Sign up</span></div>  
             </div>
         </div>
     </div>
@@ -130,6 +140,16 @@
             </form>
         </div>
     </div>
-    <script src="login.js"></script>
+    <div id="modal-hamburger-menu">
+        <div class="modal-hamburger-menu-content">
+            <ul class="hamburger-nav-container">
+                <li class="hamburger-nav-object">HOMEPAGE</li>
+                <li class="hamburger-nav-object">BROWSE BOOKS</li>
+                <li class="hamburger-nav-object">YOUR BOOKS</li>
+                <li class="hamburger-nav-object">SEARCH USERS</li>
+            </ul>
+        </div>
+    </div>
+    <script src="modalwindows.js"></script>
 </body>
 </html>
