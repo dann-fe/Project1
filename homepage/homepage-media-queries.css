@@ -88,7 +88,7 @@
 /* /////////////////////////////////////////////////////////////////////////////////////////////////// */
     .cards {
         display: flex;
-        gap: 20px;
+        gap: 10px;
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
@@ -434,7 +434,6 @@
         display: block;
         width: 130px;
     }
-
     .how-title {
         font-size: 25px;
         width: 40%;
@@ -806,6 +805,10 @@
 }
 
 @media (max-width: 616px) {
+    #logo {
+        left: 38.5%
+    }
+
     .how .card:nth-child(3) .how-button {
         margin-top: 11px;
     }
@@ -843,6 +846,12 @@
     }
 }
 
+@media (max-width: 585.60px) {
+    .how-title {
+        margin-left: 47.5%;
+    }
+}
+
 @media (max-width: 575.20px) {
     .small-books {
         left: 60%
@@ -850,6 +859,10 @@
 }
 
 @media (max-width: 571.20px) {
+    #logo {
+        left: 36%;
+    }
+
     .card-text1,
     .card-text2,
     .card-text3,
@@ -863,5 +876,131 @@
 
     .how .card:nth-child(4) .how-button {
         margin-top: 9px;
+    }
+}
+
+@media (max-width: 567px) {
+    .how-title {
+        margin-left: 42.5%;
+    }
+}
+
+@media (max-width: 557.60px) {
+    .how-title {
+        margin-left: 45%;
+    }
+    .how .card:nth-child(3) .how-button {
+        margin-top: -5px;
+    }
+
+    .updates-img-container {
+        display: none;
+    }
+}
+
+@media (max-width: 552px) {
+
+
+    .connect {
+        width: 87vw;
+    }
+
+    .connect-title {
+        font-size: 35px;
+    }
+
+    .connect-text {
+        font-size: 20px;
+    }
+
+    .small-books {
+        left: 57.5%;
+    }
+
+    .join-button {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 548px) {
+    .how .card:nth-child(4) .how-button {
+        margin-top: -5px;
+    }
+
+    .modal-hamburger-menu-content {
+        width: 35%
+    }
+}
+
+@media (max-width: 533px) {
+    .how-title {
+        margin-left: 42.5%;
+    }
+}
+
+@media (max-width: 522px) {
+    .card-title {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 519.20px) {
+    .how .card:nth-child(3) .how-button,
+    .how .card:nth-child(4) .how-button {
+        margin-top: 7px;
+    }
+}
+
+@media (max-width: 510.40px) {
+    #logo {
+        left: 35%;
+    }
+
+    .connect {
+        width: 86vw;
+    }
+}
+
+@media (max-width: 493.60px) {
+    #logo {
+        left: 34%;
+    }
+}
+
+@media (max-width: 468px) {
+    #logo {
+        left: 33%;
+    }
+}
+
+@media (max-width: 457px) {
+    #logo {
+        bottom: 14%
+    }
+}
+
+@media (max-width: 446px) {
+    #logo {
+        width: 110px;
+    }
+
+    .hamburger .bar {
+        width: 32px;
+        height: 5.5px;
+    }
+
+    .bar3 {
+        right: 8px;
+    }
+
+    .login {
+        padding: 7px 2px;
+        margin-top: 2.5px;
+    }
+}
+
+@media (max-width: 423px) {
+    #logo {
+        left: 32%;
     }
 }
