@@ -434,10 +434,18 @@
         display: block;
         width: 130px;
     }
+
+    .how-title-container {
+        display: flex;
+        justify-content: center;
+        width: 95vw;
+    }
+
     .how-title {
         font-size: 25px;
         width: 40%;
-        margin-left: 77.5%;
+        /* margin-left: 77.5%; */
+        margin: 0;
     }
 
     .how {
@@ -448,6 +456,18 @@
     .cards {
         flex-wrap: nowrap;
         width: 90vw;
+    }
+
+    .how .card:nth-child(1) .how-button {
+        margin-top: 37.5px;
+    }
+
+    .how .card:nth-child(3) .how-button {
+        margin-top: 17.5px;
+    }
+
+    .how .card:nth-child(4) .how-button {
+        margin-top: 17.5px;
     }
 
     .card-image {
@@ -465,10 +485,15 @@
     }
 }
 
+@media (max-width: 1086.40px) {
+    .how .card:nth-child(1) .how-button {
+        margin-top: 20px;
+    }
+}
 
 @media (max-width: 1053px) {
     .how .card:nth-child(3) .how-button {
-        margin-top: -2.5px;
+        margin-top: 15px;
     }
 
     .card-image3 {
@@ -482,6 +507,12 @@
     }
 }
 
+@media (max-width: 1035.2px) {
+    .how .card:nth-child(4) .how-button {
+        margin-top: 15.5px;
+    }
+}
+
 @media (max-width: 1032px) {
     #logo {
         position: absolute;
@@ -490,9 +521,21 @@
     }
 }
 
+@media (max-width: 1019.2px) {
+    .how .card:nth-child(3) .how-button {
+        margin-top: 0px;
+    }
+}
+
 @media (max-width: 1010px) {
     .nav-object {
         font-size: 17.5px;
+    }
+}
+
+@media (max-width: 1003.2px) {
+    .how .card:nth-child(4) .how-button {
+        margin-top: 2px;
     }
 }
 
@@ -504,6 +547,10 @@
 
 @media (max-width: 980px) {
     .how-button {
+        margin-top: 30px;
+    }
+
+    .how .card:nth-child(1) .how-button {
         margin-top: 30px;
     }
 
@@ -536,6 +583,12 @@
     }
 }
 
+@media (max-width: 928px) {
+    .how-title-container {
+        width: 90vw;
+    }
+}
+ 
 @media (max-width: 903px) {
     .how .card:nth-child(1) .how-button {
         margin-top: 50px;
@@ -550,6 +603,12 @@
     }
     .how .card:nth-child(4) .how-button {
         margin-top: 28.5px;
+    }
+}
+
+@media (max-width: 901.60px) {
+    .how .card:nth-child(2) .how-button {
+        margin-top: 50px;
     }
 }
 
@@ -574,14 +633,14 @@
     }
 
     .how .card:nth-child(2) .how-button {
-        margin-top: 67.5px;
+        margin-top: 85px;
     }   
 
     .how .card:nth-child(3) .how-button {
-        margin-top: 45.5px;
+        margin-top: 65px;
     }
     .how .card:nth-child(4) .how-button {
-        margin-top: 65px;
+        margin-top: 67.5px;
     }    
 }
 
@@ -591,6 +650,8 @@
         margin-top: 48.5px;
     }
 }
+
+
 
 @media (max-width: 880px) {
     .nav-object {
@@ -655,7 +716,7 @@
 @media (max-width: 780px) {
     .how-title {
         width: 250px;
-        margin-left: 62.5%;
+        /* margin-left: 62.5%; */
     }
 
     .small-books {
@@ -725,9 +786,6 @@
 @media (max-width: 684.60px) {
     .small-books {
         top: 200px;
-    }
-    .how-title {
-        margin-left: 57.5%;
     }
     .how .card:nth-child(2) .how-button {
         margin-top: 47px;
@@ -799,9 +857,6 @@
 }
 
 @media (max-width: 641px) {
-    .how-title {
-        margin-left: 55%;
-    }
 }
 
 @media (max-width: 616px) {
@@ -811,10 +866,6 @@
 
     .how .card:nth-child(3) .how-button {
         margin-top: 11px;
-    }
-
-    .how-title {
-        margin-left: 50%;
     }
 }
 
@@ -847,9 +898,6 @@
 }
 
 @media (max-width: 585.60px) {
-    .how-title {
-        margin-left: 47.5%;
-    }
 }
 
 @media (max-width: 575.20px) {
@@ -879,16 +927,9 @@
     }
 }
 
-@media (max-width: 567px) {
-    .how-title {
-        margin-left: 42.5%;
-    }
-}
+
 
 @media (max-width: 557.60px) {
-    .how-title {
-        margin-left: 45%;
-    }
     .how .card:nth-child(3) .how-button {
         margin-top: -5px;
     }
@@ -918,7 +959,7 @@
     }
 
     .join-button {
-        margin-top: 40px;
+        margin-top: 20px;
     }
 }
 
@@ -932,11 +973,7 @@
     }
 }
 
-@media (max-width: 533px) {
-    .how-title {
-        margin-left: 42.5%;
-    }
-}
+
 
 @media (max-width: 522px) {
     .card-title {
@@ -961,15 +998,55 @@
     }
 }
 
+@media (max-width: 506px) {
+    .small-books {
+        left: 60%
+    }
+}
+
+
 @media (max-width: 493.60px) {
     #logo {
         left: 34%;
     }
 }
 
+@media (max-width: 488px) {
+    .connect-title {
+        font-size: 32.5px;
+    }
+}
+
+
+@media (max-width: 473.60px) {
+    .connect {
+        width: 85vw;
+    }
+
+    .updates {
+        width: 86vw;
+    }
+}
+
 @media (max-width: 468px) {
     #logo {
         left: 33%;
+    }
+}
+
+@media (max-width: 464px) {
+    .cards {
+        width: 87vw;
+    }
+}
+
+@media (max-width: 458.4px) {
+    .connect-title {
+        font-size: 31px;
+    }
+
+    .connect-text {
+        font-size: 18.5px;
     }
 }
 

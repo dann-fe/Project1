@@ -12,27 +12,27 @@
         <header>
             <a href="homepage.html"><img src="../imgs/booker-logo.png" alt="Booker" id="logo"></a>     
         </header>
-    <nav>
-        <ul class="nav-container">
-            <li class="nav-object">Homepage</li>
-            <li class="nav-object">Browse books</li>
-            <div class="hamburger-container">
-                <input type="checkbox" id="checkbox" class="checkbox">
-                <label for="checkbox">
-                    <div class="hamburger">
-                        <span class="bar bar1"></span>
-                        <span class="bar bar2"></span>
-                        <span class="bar bar3"></span>
-                        <span class="bar bar4"></span>
+        <nav>
+            <ul class="nav-container">
+                <li class="nav-object" style="font-weight: 600; color: darkblue;">Homepage</li>
+                <li class="nav-object"><a href="../browse-books/browsebooks.html" class="nav-link">Browse books</a></li>
+                    <div class="hamburger-container">
+                        <input type="checkbox" id="checkbox" class="checkbox">
+                        <label for="checkbox">
+                            <div class="hamburger">
+                                <span class="bar bar1"></span>
+                                <span class="bar bar2"></span>
+                                <span class="bar bar3"></span>
+                                <span class="bar bar4"></span>
+                            </div>
+                        </label>
                     </div>
-                </label>
-            </div>
-            <!-- <a href="../signup-login/login.html" class="nav-link"> --> <li class="nav-object">Your books</li><!-- </a> --> 
-            <li class="nav-object">Search users</li>
-            <li class="nav-object"><button class="login">Log In</button></a></li>
-        </ul>
-        
-    </nav>
+                    <!-- <a href="../signup-login/login.html" class="nav-link"> --> <li class="nav-object"><a href="../your-books/yourbooks.html" class="nav-link">Your books</a></li><!-- </a> --> 
+                    <li class="nav-object"><a href="../search-users/searchusers.html" class="nav-link">Search users</a></li>
+                    <li class="nav-object"><button class="login">Log In</button></li>
+            </ul>
+            
+        </nav>
     </div>
 
     <main>
@@ -135,7 +135,6 @@
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" placeholder="Your email"><br>
                 </div>
-
                 <label for="password">Password:</label><br>
                 <input type="password" id="password" name="password" placeholder="Password"><br>
                 <input type="submit" id="submit" value="Sign Up">
@@ -152,6 +151,6 @@
             </ul>
         </div>
     </div>
-    <script src="modalwindows.js"></script>
+    <script src="../modalwindows.js"></script>
 </body>
 </html>
