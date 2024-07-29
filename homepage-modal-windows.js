@@ -46,7 +46,7 @@ function toggleHamburgerMenu() {
 loginButton.addEventListener("click", openLoginWindow);
 closeButton[0].addEventListener("click", closeLoginWindow);
 closeButton[1].addEventListener("click", closeSignupWindow);
-// body.addEventListener("click", closeLoginWindow);
+
 joinButton.addEventListener("click", openSignupWindow);
 signupLink.addEventListener("click", loginCloseSignupOpen);
 hamburgerIcon.addEventListener("click", toggleHamburgerMenu);
