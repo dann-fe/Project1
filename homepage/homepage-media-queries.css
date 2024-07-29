@@ -392,7 +392,6 @@
         display: flex;
         justify-items: center;
         flex-wrap: wrap;
-        overflow: hidden;
     }
 
     .connect {
@@ -645,9 +644,9 @@
 }
 
 
-@media (max-width: 886px) {
+@media (max-width: 885.60px) {
     .how .card:nth-child(4) .how-button {
-        margin-top: 48.5px;
+        margin-top: 65px;
     }
 }
 
@@ -682,6 +681,17 @@
     }
 }
 
+@media (max-width: 869.6px) {
+    .how .card:nth-child(2) .how-button {
+        margin-top: 68px;
+    }
+}
+@media (max-width: 863.2px) {
+    .how .card:nth-child(3) .how-button {
+        margin-top: 46px;
+    }
+}
+
 @media (max-width: 860px) {
     .updates-img {
         width: 25%;
@@ -693,23 +703,41 @@
     }
 }
 
+@media (max-width: 852px) {
+    .how .card:nth-child(4) .how-button {
+        margin-top: 47.5px;
+    }
+}
 
 @media (max-width: 840px) {
     .how .card:nth-child(1) .how-button {
-        margin-top: 68px;
+        margin-top: 85px;
     }
 }
 
 @media (max-width: 817px) {
     .how .card:nth-child(1) .how-button {
-        margin-top: 50px;
+        margin-top: 85px;
     }
 }
+
+@media (max-width: 806.40px) {
+    .how .card:nth-child(1) .how-button {
+        margin-top: 67.5px;
+    }
+}
+
 
 @media (max-width: 801.60px) {
     .connect-text {
         margin-top: 10px;
         font-size: 22.5px;
+    }
+}
+
+@media (max-width: 783.20px) {
+    .how .card:nth-child(1) .how-button {
+        margin-top: 50px;
     }
 }
 
@@ -725,28 +753,10 @@
     }
 }
 
-@media (max-width: 773px) {
-    .how .card:nth-child(4) .how-button {
-        margin-top: 30px;
-    }
-}
 
-@media (max-width: 763px) {
-    .how .card:nth-child(3) .how-button {
-        margin-top: 30px;
-    }
-}
 
-@media (max-width: 759.20px) {
-    .how .card:nth-child(1) .how-button {
-        margin-top: 26px;
-    }
-}
 
 @media (max-width: 758.40px) {
-    .how .card:nth-child(4) .how-button {
-        margin-top: 7.5px;
-    }
 
     .updates-img-container {
         top: 80px;
@@ -758,22 +768,27 @@
     }
 }
 
-@media (max-width: 733.60px) {
-    .how .card:nth-child(2) .how-button {
-        margin-top: 45px;
+@media (max-width: 739.20px) {
+    .how .card:nth-child(4) .how-button {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 729.60px) {
+    .how .card:nth-child(3) .how-button {
+        margin-top: 28px;
+    }
+}
+
+@media (max-width: 727.20px) {
+    .card-title {
+        font-size: 18px;
     }
 }
 
 @media (max-width: 705px) {
     .card-title {
         font-size: 17.5px;
-    }
-    .how .card:nth-child(2) .how-button {
-        margin-top: 27.5px;
-    }
-
-    .how .card:nth-child(3) .how-button {
-        margin-top: 7.5px;
     }
 }
 
@@ -787,28 +802,12 @@
     .small-books {
         top: 200px;
     }
-    .how .card:nth-child(2) .how-button {
-        margin-top: 47px;
-    }
-
-    .how .card:nth-child(3) .how-button {
-        margin-top: 25px;
-    }
-    .how .card:nth-child(4) .how-button {
-        margin-top: 26px;
-    }
 }
 
-@media (max-width: 682.40px) {
-    .how .card:nth-child(4) .how-button {
-        margin-top: 5px;
-    }
-}
-
-@media (max-width: 679.20px) {
-    .how .card:nth-child(4) .how-button {
-        margin-top: -10px;
-    }
+@media (max-width: 670.40px) {
+        .how .card:nth-child(2) .how-button {
+            margin-top: 50px;
+        }
 }
 
 @media (max-width: 665px) {
@@ -856,7 +855,10 @@
     }
 }
 
-@media (max-width: 641px) {
+@media (max-width: 624px) {
+    .cards {
+        margin-left: -2%;
+    }
 }
 
 @media (max-width: 616px) {
@@ -910,6 +912,10 @@
     #logo {
         left: 36%;
     }
+
+    /* .cards {
+        margin-left: -7.5px;
+    } */
 
     .card-text1,
     .card-text2,
@@ -973,7 +979,11 @@
     }
 }
 
-
+@media (max-width: 540px) {
+    .cards {
+        margin-left: -5%;
+    }
+}
 
 @media (max-width: 522px) {
     .card-title {
@@ -1026,6 +1036,26 @@
     .updates {
         width: 86vw;
     }
+
+    .how .card:nth-child(1) .how-button {
+        margin-top: 27.5px;
+    }
+
+}
+
+@media (max-width: 469.60px) {
+    .how-button {
+        font-size: 12.5px;
+        padding: 10px 5px;
+    }
+
+    .how .card:nth-child(3) .how-button {
+        margin-top: -5px;
+    }
+
+    .how .card:nth-child(4) .how-button {
+        margin-top: 10px;
+    }
 }
 
 @media (max-width: 468px) {
@@ -1035,8 +1065,44 @@
 }
 
 @media (max-width: 464px) {
-    .cards {
-        width: 87vw;
+    .how .card:nth-child(4) .how-button {
+        margin-top: -6px;
+    }
+}
+
+@media (max-width: 450px) {
+    main {
+        height: 1900px;
+    }
+
+    .card {
+        width: 500px;
+    }
+
+    .card-title {
+        font-size: 150%;
+    }
+
+    .card-text1,
+    .card-text2,
+    .card-text3,
+    .card-text4 {
+        /* font-size: 100%; */
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .how .card:nth-child(1) .how-button,
+    .how .card:nth-child(2) .how-button,
+    .how .card:nth-child(3) .how-button,
+    .how .card:nth-child(4) .how-button {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 461px) {
+    .modal-hamburger-menu-content {
+        width: 37%;
     }
 }
 
@@ -1076,8 +1142,213 @@
     }
 }
 
+@media (max-width: 430px) {
+    .how-title-container {
+        width: 87vw;
+    }
+}
+
 @media (max-width: 423px) {
     #logo {
         left: 32%;
+    }
+}
+
+@media (max-width: 420px) {
+    .modal-hamburger-menu-content {
+        width: 39%;
+    }
+}
+
+@media (max-width: 410px) {
+    .modal-hamburger-menu-content {
+        width: 42.5%;
+    }
+}
+
+@media (max-width: 400px) {
+    #logo {
+        left: 37%;
+        top: 20%;
+        width: 100px;
+    }
+
+    .login {
+        margin-right: 10px;
+    }
+
+    .small-books {
+        left: 55%
+    }
+
+    .updates-title {
+        font-size: 22px;
+    }
+
+    .updates-list-item {
+        font-size: 17.5px;
+    }
+
+    .cards {
+        margin-left: -7%;
+    }
+}
+
+@media (max-width: 395px) {
+    .how-title-container {
+        width: 85vw;
+    }
+}
+
+@media (max-width: 380px) {
+    #logo {
+        left: 35%;
+    }
+
+    .connect-title {
+        font-size: 28px;
+    }
+
+    .connect-text {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 376px) {
+    .modal-hamburger-menu-content {
+        width: 45%;
+    }
+}
+
+@media (max-width: 367px) {
+    .join-button {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 352px) {
+    #logo {
+        left: 33.5%;
+    }
+
+    .login {
+        font-size: 12.5px;
+    }
+/* 
+    .hamburger {
+        scale: 95%;
+    }*/
+} 
+
+@media (max-width: 350px) {
+    .modal-hamburger-menu-content {
+        width: 48%;
+    }
+}
+
+@media (max-width: 355px) {
+    .how-title-container {
+        width: 83vw;
+    }
+}
+
+@media (max-width: 348px) {
+    .updates {
+        height: 220px;
+    }
+}
+
+@media (max-width: 346px) {
+    .small-books {
+        left: 57.5%;
+    }
+
+    .cards {
+        margin-left: -8.5%;
+    }
+}
+
+@media (max-width: 338px) {
+    #logo {
+        left: 33%;
+    }
+    .login {
+        padding: 5px 0px;
+        top: 35%;
+    }
+}
+
+@media (max-width: 335px) {
+    .modal-hamburger-menu-content {
+        width: 50%;
+    }
+}
+
+@media (max-width: 328px) {
+    .small-books {
+        left: 59%;
+    }
+}
+
+@media (max-width: 343px) {
+    #logo {
+        left: 32.5%;  
+    }
+
+    .hamburger {
+        margin-left: -30px;
+    }
+    
+    .login {
+        width: 50px;
+        padding: 5px 10px;
+        top: 32.5%;
+    }
+}
+
+@media (max-width: 331px) {
+    main {
+        width: 101vw;
+        overflow: hidden;
+    }
+
+    footer {
+        width: 101vw;
+    }
+
+    .how-title-container {
+        width: 82vw;
+    }
+}
+
+@media (max-width: 324px) {
+    .how .card:nth-child(1) .how-button,
+    .how .card:nth-child(3) .how-button,
+    .how .card:nth-child(4) .how-button {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 321px) {
+    .card-text1,
+    .card-text2,
+    .card-text3,
+    .card-text4 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 321px) {
+    #logo {
+        left: 33.5%;
+    }
+
+    .small-books {
+        left: 60%;
+    }
+
+
+    .modal-hamburger-menu-content {
+        width: 55%;
     }
 }

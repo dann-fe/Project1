@@ -617,8 +617,7 @@ footer {
 }
 
 #modal-hamburger-menu {
-    display: none;
-    z-index: 2;    
+    display: none;  
     width: 100%;
     height: 84.25%;
     position: fixed;

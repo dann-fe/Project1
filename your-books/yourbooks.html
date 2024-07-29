@@ -42,5 +42,57 @@
                 <div class="coding-img-container"><img src="coding.gif" alt="Man coding" class="coding-img"></div>
             </div>
         </main>
-</body>     
-</html>
+        <footer>
+        
+        </footer>
+        <div id="login-window" class="modal-popout-window">
+            <div class="login-window-content">
+                <div class="close-window-container">
+                    <div class="close-window">&#10006;</div>
+                </div>
+                <h1 class="modal-heading">LOGIN</h1>
+                <form action="" id="login-form">
+                    <label for="username-email">Username/email:</label><br>
+                    <input type="text" id="username-email" name="username-email" placeholder="Username or email"><br>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" placeholder="Password"><br>
+                    <input type="submit" id="submit" value="Login">
+                </form>
+                <div id="signup-link-container">
+                    <div class="signup-invitation">Don't have an account yet? Sign up and use Booker to the fullest! <span id="signup-link">Sign up</span></div>  
+                </div>
+            </div>
+        </div>
+        <div id="signup-window" class="modal-popout-window">
+            <div class="signup-window-content">
+                <div class="close-window-container">
+                    <div class="close-window">&#10006;</div>
+                </div>
+                <h1 class="modal-heading">JOIN BOOKER</h1>
+                <p class="signup-text">Join Booker and get access to many more features as writing your own book reviews, seeing your statistics and more!</p>
+                <form action="" id="login-form">
+                    <label for="username-email">Username:</label><br>
+                    <input type="text" id="username" name="username" placeholder="Your username"><br>
+                    <div class="email-flexbox">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your email"><br>
+                    </div>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" placeholder="Password"><br>
+                    <input type="submit" id="submit" value="Sign Up">
+                </form>
+            </div>
+        </div>
+        <div id="modal-hamburger-menu">
+            <div class="modal-hamburger-menu-content">
+                <ul class="hamburger-nav-container">
+                    <li class="hamburger-nav-object">HOMEPAGE</li>
+                    <li class="hamburger-nav-object">BROWSE BOOKS</li>
+                    <li class="hamburger-nav-object">YOUR BOOKS</li>
+                    <li class="hamburger-nav-object">SEARCH USERS</li>
+                </ul>
+            </div>
+        </div>
+        <script src="../modalwindows.js"></script>
+    </body>
+    </html>
