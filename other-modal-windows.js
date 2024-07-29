@@ -6,6 +6,7 @@ const signupLink = document.getElementById("signup-link");
 const closeButton = document.querySelectorAll(".close-window");
 const hamburgerIcon = document.querySelector(".hamburger");
 const modalHamburgerMenu = document.getElementById("modal-hamburger-menu");
+const loginFooterLink = document.querySelectorAll(".footer-link");
 let menuIsOpen = false;
 const body = document.body;
 function openLoginWindow () {
@@ -45,5 +46,6 @@ function toggleHamburgerMenu() {
 loginButton.addEventListener("click", openLoginWindow);
 closeButton[0].addEventListener("click", closeLoginWindow);
 closeButton[1].addEventListener("click", closeSignupWindow);
+loginFooterLink[5].addEventListener("click", openLoginWindow);
 signupLink.addEventListener("click", loginCloseSignupOpen);
 hamburgerIcon.addEventListener("click", toggleHamburgerMenu);
